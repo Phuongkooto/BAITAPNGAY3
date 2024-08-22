@@ -1,0 +1,37 @@
+
+import java.util.Scanner;
+public class ScannerIntss{
+public static void main(String args[]){
+    
+Scanner siuuuuu = new Scanner(System.in);
+String myName = null ;
+System.out.print("Nhap ten : ");
+if (siuuuuu.hasNext ()) {
+    myName = siuuuuu.nextLine();
+    System.out.println("Day la chuoi.");
+} else {
+    System.out.println("Khong phai chuoi");
+}
+
+int myAge = 0;
+System.out.print("Nhap tuoi : ");
+
+if (siuuuuu.hasNextInt() ) {
+   myAge = siuuuuu.nextInt();
+   
+    System.out.println("Day la INT.");
+} else {
+    System.out.println("Khong phai int");
+}
+
+
+
+
+
+System.out.println("\n");
+   
+System.out.println("Ten:" + myName);
+System.out.println("TUoi: " + myAge);
+
+}
+}
